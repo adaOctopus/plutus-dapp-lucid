@@ -14,6 +14,7 @@
   "dependencies": {
     "@meshsdk/core": "1.2.0-beta.4",
     "@meshsdk/react": "1.1.1",
+    "lucid-cardano": "^0.8.3",
     "next": "13.0.2",
     "react": "18.2.0",
     "react-dom": "18.2.0"
