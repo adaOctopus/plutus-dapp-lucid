@@ -1,5 +1,6 @@
 import Head from "next/head";
 import { CardanoWallet, MeshBadge } from "@meshsdk/react";
+import SendAda from "../components/TxActions/SendAda";
 
 export default function Home() {
   return (
@@ -28,10 +29,13 @@ export default function Home() {
         </div>
 
         <div className="grid">
-          <a href="https://meshjs.dev/apis" className="card">
-            <h2>Lock Funds - MInt NFT - Mint FT</h2>
-          </a>
+
+        <div className="demo">
+        <SendAda/>
         </div>
+        
+        </div>
+
       </main>
 
       <footer className="footer">
