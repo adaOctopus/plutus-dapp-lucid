@@ -1,6 +1,7 @@
 import Head from "next/head";
 import { CardanoWallet, MeshBadge } from "@meshsdk/react";
 import SendAda from "../components/TxActions/SendAda";
+import LockFundsWDatum from "../components/TxActions/LockFunds";
 
 export default function Home() {
   return (
@@ -33,7 +34,11 @@ export default function Home() {
         <div className="demo">
         <SendAda/>
         </div>
-        
+
+        <div className="card">
+          <LockFundsWDatum/>
+        </div>
+
         </div>
 
       </main>
