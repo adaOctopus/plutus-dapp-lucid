@@ -73,13 +73,6 @@ const LockFundsWDatum: NextComponentType<NextPageContext, {}, Props> = (
 
     return (
         <div className="grid">
-        <form onSubmit={connectWalletLockFunds}>
-        <label>
-          <p style={{ marginLeft: '' }}>ADA$</p> 
-          <input type="text" value={adaAMount} onChange={handleAda} />
-        </label>
-        <input type="submit" value="Lock funds"/>
-      </form>
       <Button theme="primary" type="button" text="Lock Funds" onClick={connectWalletLockFunds}></Button>
       </div>
     )
