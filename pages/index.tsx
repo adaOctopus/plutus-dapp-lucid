@@ -32,7 +32,7 @@ export default function Home() {
 
         <div className="grid">
 
-        <div className="demo">
+        <div className="card">
         <SendAda/>
         </div>
 

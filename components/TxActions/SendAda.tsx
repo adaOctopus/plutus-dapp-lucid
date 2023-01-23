@@ -44,7 +44,7 @@ const SendAda: NextComponentType<NextPageContext, {}, Props> = (
         <div className="grid">
 
         
-          <Button theme="primary" type="button" text="Send 5 ADA$" onClick={sendAdaToAddressX}></Button>
+          <Button theme="translucent" type="button" text="Send 5 ADA$" onClick={sendAdaToAddressX}></Button>
         </div>
     )
    }

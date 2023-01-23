@@ -73,7 +73,7 @@ const LockFundsWDatum: NextComponentType<NextPageContext, {}, Props> = (
 
     return (
         <div className="grid">
-      <Button theme="primary" type="button" text="Lock Funds" onClick={connectWalletLockFunds}></Button>
+      <Button theme="translucent" type="button" text="Just Lock Funds" onClick={connectWalletLockFunds}></Button>
       </div>
     )
   }

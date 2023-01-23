@@ -142,7 +142,7 @@ const LockMint: NextComponentType<NextPageContext, {}, Props> = (
 
   return (
     <div className="grid">
-        <Button theme="translucent" type="button" text="Full Tx" onClick={fullTx}></Button>
+        <Button theme="translucent" type="button" text="Lock funds & Mint Tokens" onClick={fullTx}></Button>
     </div>
   )
   }
