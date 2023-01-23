@@ -3,6 +3,7 @@ import { CardanoWallet, MeshBadge } from "@meshsdk/react";
 import SendAda from "../components/TxActions/SendAda";
 import LockFundsWDatum from "../components/TxActions/LockFunds";
 import LockMint from "../components/TxActions/LockFundsMintNFTFT";
+import RedeemLocked from "../components/TxActions/RedeemLockedFunds";
 
 export default function Home() {
   return (
@@ -23,7 +24,7 @@ export default function Home() {
 
       <main className="main">
         <h1 className="title">
-          <a href="https://meshjs.dev/">Plutus Dapp </a>Demo
+        🪄 <a href="https://meshjs.dev/">Plutus </a>Wizards 🔮
         </h1>
 
         <div className="demo">
@@ -38,6 +39,10 @@ export default function Home() {
 
         <div className="card">
           <LockFundsWDatum/>
+        </div>
+
+        <div className="card">
+          <RedeemLocked/>
         </div>
 
         <div className="card">
