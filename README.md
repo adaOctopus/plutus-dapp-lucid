@@ -1,6 +1,14 @@
 ## This is a PLutus UI Dapp built with the `lucid-cardano` library.
 
 
+### How to build
+
+- Clone the repo locally: https://github.com/tas2017/plutus-dapp-lucid
+- cd to the root (leap) directory
+- run : `npm install`
+- run : `npm run dev`
+- visit localhost:3000 the app should be up and running there.
+
 ### Current Status
 1. Send ADA to an address with MESH: Done
 2. Lock funds to a script with constructed custom datum with MESH: Done
@@ -27,3 +35,5 @@ In this implementation we are doing these simple demonstrations:
 - Redeeming those funds, is currently pending.
 
 All functionalities are built in a modular form (each component does one thing. Read the code to understand, it is very simple.)
+
+If help is needed, message in the PlutusWizards discord https://discord.gg/hvGtC7Xh
