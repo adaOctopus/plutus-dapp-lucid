@@ -1,4 +1,4 @@
-## This is a Plutus Dapp built with the `lucid & meshJS` library.
+## Plutus Dapp built with `NextJS, lucid-cardano, meshJS, Nami wallet & PlutusTX`.
 
 
 ![alt text](https://github.com/tas2017/plutus-dapp-lucid/blob/main/view.png)
