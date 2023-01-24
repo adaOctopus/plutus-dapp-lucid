@@ -1,4 +1,7 @@
-## This is a PLutus UI Dapp built with the `lucid-cardano` library.
+## This is a PLutus UI Dapp built with the `lucid & meshJS` library.
+
+
+![alt text](https://github.com/tas2017/plutus-dapp-lucid/blob/main/view.png)
 
 
 ### How to build
