@@ -11,7 +11,7 @@ import { useLovelace } from '@meshsdk/react';
 declare const window: any;
 
 // Lock Script Address in Preprod Testnet (this is the contract I coded named LockScriptV2 in the backend associated repo)
-const lockScriptAddress = 'addr_test1wrgzpjxkl3249pfsjgmv7mueautkt28kgx2xhehjqhxanecznac34'
+const lockScriptAddress = 'addr_test1wzxy9z03jyxkk5reuytc8zlj9hw9x5hn84r2ckyv8rlhcpqnxm59d'
 
 // The lockScript requires a DATUM, in order to redem the funds, therefore we will construct a DATUM to be attached when we lock the funds.
 // i.e THis is the datum-lock.json example used with Haskell helper function
@@ -21,7 +21,7 @@ const lockScriptAddress = 'addr_test1wrgzpjxkl3249pfsjgmv7mueautkt28kgx2xhehjqhx
 
 const datumConstructor: Data = {
     alternative: 0,
-    fields: [100000000, '85d4ddf3ab7b5711afc2324077b49f6c6efd9bd71dd4c63267e13d93'],
+    fields: [100000000, '48946af1bb8e9480298e8cdf47cf7eed715956f5abdeee92ca0a26ee'],
   };
 
 const datumConstructorHash = resolveDataHash(datumConstructor);

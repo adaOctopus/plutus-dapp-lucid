@@ -29,6 +29,7 @@ const SendAda: NextComponentType<NextPageContext, {}, Props> = (
         lucid.selectWallet(api);
 
         const tx = await lucid.newTx()
+        // Update this to whatever address you want to send money to.
         .payToAddress("addr_test1vzzafh0n4da4wyd0cgeyqaa5nakxalvm6uwaf33jvlsnmycqxq00v", { lovelace: 5700000n })
         .complete();
 
