@@ -1,4 +1,4 @@
-## This is a PLutus UI Dapp built with the `lucid & meshJS` library.
+## This is a Plutus Dapp built with the `lucid & meshJS` library.
 
 
 ![alt text](https://github.com/tas2017/plutus-dapp-lucid/blob/main/view.png)
@@ -31,7 +31,7 @@
 MeshSDK has a bug with CSL and we cannot mint multiple tokens from multiple policies in the same transaction.
 We get MIssingRedeemer errors from SHelley
 
-THereore, the PLutus Contracts I have written can be interacted with only via cardano-cli at the moment (read the other repo for info: https://github.com/tas2017/plutus-mint-lock-unlock-dapp)
+THereore, the Plutus Contracts I have written can be interacted with only via cardano-cli at the moment (read the other repo for info: https://github.com/tas2017/plutus-mint-lock-unlock-dapp)
 
 In this implementation we are doing these simple demonstrations:
 
